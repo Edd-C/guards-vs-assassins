@@ -9,7 +9,7 @@ export const boardConfigArr: BoardConfig[] = [
   // Board 1
   {
     title: "Stormy seas",
-    data: ["A.X...X.", "..X.X...", "....X.X.", "X..X..XE"],
+    data: ["A.X...X.", ".^X.X...", "....X.X.", ">..X..XE"],
   },
   {
     title: "Snake",

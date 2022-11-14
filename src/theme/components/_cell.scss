@@ -3,7 +3,17 @@
 $size: 3rem;
 
 .cell {
-  font-size: 18px;
+  font-size: 12px;
+  @media (min-width: 576px) {
+    font-size: 12px;
+  }
+  @media (min-width: 768px) {
+    font-size: 16px;
+  }
+  @media (min-width: 992px) {
+    font-size: 18px;
+  }
+
   font-weight: 500;
 
   display: flex;

@@ -7,10 +7,7 @@ import { Pathfinder } from "../class/Pathfinder";
 import SolveMessage from "./SolveMessage";
 
 function Board() {
-  const getRandomBoardIndex = () => {
-    return Math.floor(Math.random() * boardConfigArr.length);
-  };
-  const [currBoard, setCurrBoard] = useState(getRandomBoardIndex());
+  const [currBoard, setCurrBoard] = useState(0);
   const boardDataArr: string[][] = boardConfigArr.map((board) => board.data);
 
   const [canEscape, setCanEscape] = useState<boolean | null>(null);
