@@ -26,5 +26,15 @@ module.exports = {
       },
     ],
     "import/extensions": "off",
+    "no-shadow": "off",
+    "@typescript-eslint/no-shadow": "error",
+    "prettier/prettier": [
+      // or whatever plugin that is causing the clash
+      "error",
+      {
+        tabWidth: 2,
+        endOfLine: "auto",
+      },
+    ],
   },
 };

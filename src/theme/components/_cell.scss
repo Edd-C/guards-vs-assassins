@@ -1,0 +1,27 @@
+@import "../variables";
+
+$size: 3rem;
+
+.cell {
+  font-size: 18px;
+  font-weight: 500;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  aspect-ratio: 1/1;
+  user-select: none;
+  line-height: 100%;
+
+  border-left: 1px solid $grid-lines;
+  &:last-child {
+    border-right: 1px solid $grid-lines;
+  }
+
+  &:hover {
+    background: $cell-hover;
+    color: $white;
+    cursor: pointer;
+  }
+}

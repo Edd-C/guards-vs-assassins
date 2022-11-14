@@ -1,0 +1,90 @@
+@import "variables";
+
+@import "./components/_cell.scss";
+@import "./components/_board.scss";
+@import "./components/_checkbox.scss";
+
+.primary-text {
+  color: $secondary;
+}
+.primary-bg-100 {
+  background: $primary;
+}
+
+.secondary-text {
+  color: $secondary;
+}
+.secondary-bg {
+  background: $secondary;
+}
+.secondary-btn {
+  background: $secondary;
+  color: $white;
+
+  &:hover {
+    background: $secondary-70;
+    color: $white;
+  }
+}
+
+.light-blue-text {
+  color: $light-blue;
+}
+.light-blue-bg {
+  background: $light-blue;
+}
+.light-blue-bg-20 {
+  background: $light-blue-20;
+}
+.light-blue-btn {
+  background: $light-blue;
+  color: $white;
+
+  &:hover {
+    background: $light-blue-70;
+    color: $white;
+  }
+}
+
+.teal-text {
+  color: $teal;
+}
+.teal-bg {
+  background: $teal;
+}
+.teal-btn {
+  background: $teal-90;
+  color: $white;
+
+  &:hover {
+    background: $teal;
+    color: $white;
+  }
+
+  &:disabled {
+    background: $teal-60;
+    color: $white;
+  }
+}
+
+.walkable-bg {
+  background: $walkable;
+}
+.assassin-bg {
+  background: goldenrod;
+}
+.blockade-bg {
+  background: $blockade;
+}
+.guardLOS-bg {
+  background: $guard-los;
+}
+.guard-bg {
+  background: $guard;
+}
+.exit-bg {
+  background: $exit;
+}
+.exitPath-bg {
+  background: $exitPath;
+}

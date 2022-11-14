@@ -1,0 +1,9 @@
+@import "../variables";
+
+.board-row {
+  border-top: 1px solid $grid-lines;
+
+  &:last-child {
+    border-bottom: 1px solid $grid-lines;
+  }
+}

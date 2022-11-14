@@ -1,1 +1,4 @@
-module.exports = {};
+module.exports = {
+  endOfLine: "auto",
+  tabWidth: 2,
+};

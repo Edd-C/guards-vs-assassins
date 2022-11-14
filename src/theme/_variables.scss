@@ -1,0 +1,85 @@
+:root {
+  --primary-rgb: 81, 55, 224;
+  --secondary-rgb: 120, 55, 224;
+  --white-rgb: 255, 255, 255;
+  --light-blue-rgb: 55, 178, 224;
+  --teal-rgb: 39, 124, 157;
+  --navy-rgb: 48, 61, 157;
+
+  --opacity-10: 0.1;
+  --opacity-20: 0.2;
+  --opacity-30: 0.3;
+  --opacity-40: 0.4;
+  --opacity-50: 0.5;
+  --opacity-60: 0.6;
+  --opacity-70: 0.7;
+  --opacity-80: 0.8;
+  --opacity-90: 0.9;
+  --opacity-100: 1;
+}
+
+$primary: rgba(var(--primary-rgb), var(--opacity-100));
+$primary-10: rgba(var(--primary-rgb), var(--opacity-10));
+$primary-20: rgba(var(--primary-rgb), var(--opacity-20));
+$primary-30: rgba(var(--primary-rgb), var(--opacity-30));
+$primary-40: rgba(var(--primary-rgb), var(--opacity-40));
+$primary-50: rgba(var(--primary-rgb), var(--opacity-50));
+$primary-60: rgba(var(--primary-rgb), var(--opacity-60));
+$primary-70: rgba(var(--primary-rgb), var(--opacity-70));
+$primary-80: rgba(var(--primary-rgb), var(--opacity-80));
+$primary-90: rgba(var(--primary-rgb), var(--opacity-90));
+
+$secondary: rgba(var(--secondary-rgb), var(--opacity-100));
+$secondary-10: rgba(var(--secondary-rgb), var(--opacity-10));
+$secondary-20: rgba(var(--secondary-rgb), var(--opacity-20));
+$secondary-30: rgba(var(--secondary-rgb), var(--opacity-30));
+$secondary-40: rgba(var(--secondary-rgb), var(--opacity-40));
+$secondary-50: rgba(var(--secondary-rgb), var(--opacity-50));
+$secondary-60: rgba(var(--secondary-rgb), var(--opacity-60));
+$secondary-70: rgba(var(--secondary-rgb), var(--opacity-70));
+$secondary-80: rgba(var(--secondary-rgb), var(--opacity-80));
+$secondary-90: rgba(var(--secondary-rgb), var(--opacity-90));
+
+$white: rgba(var(--white-rgb), var(--opacity-100));
+
+$light-blue: rgba(var(--light-blue-rgb), var(--opacity-100));
+$light-blue-10: rgba(var(--light-blue-rgb), var(--opacity-10));
+$light-blue-20: rgba(var(--light-blue-rgb), var(--opacity-20));
+$light-blue-30: rgba(var(--light-blue-rgb), var(--opacity-30));
+$light-blue-40: rgba(var(--light-blue-rgb), var(--opacity-40));
+$light-blue-50: rgba(var(--light-blue-rgb), var(--opacity-50));
+$light-blue-60: rgba(var(--light-blue-rgb), var(--opacity-60));
+$light-blue-70: rgba(var(--light-blue-rgb), var(--opacity-70));
+$light-blue-80: rgba(var(--light-blue-rgb), var(--opacity-80));
+$light-blue-90: rgba(var(--light-blue-rgb), var(--opacity-90));
+
+$teal: rgba(var(--teal-rgb), var(--opacity-100));
+$teal-10: rgba(var(--teal-rgb), var(--opacity-10));
+$teal-20: rgba(var(--teal-rgb), var(--opacity-20));
+$teal-30: rgba(var(--teal-rgb), var(--opacity-30));
+$teal-40: rgba(var(--teal-rgb), var(--opacity-40));
+$teal-50: rgba(var(--teal-rgb), var(--opacity-50));
+$teal-60: rgba(var(--teal-rgb), var(--opacity-60));
+$teal-70: rgba(var(--teal-rgb), var(--opacity-70));
+$teal-80: rgba(var(--teal-rgb), var(--opacity-80));
+$teal-90: rgba(var(--teal-rgb), var(--opacity-90));
+
+$navy: rgba(var(--navy-rgb), var(--opacity-100));
+$navy-10: rgba(var(--navy-rgb), var(--opacity-10));
+$navy-20: rgba(var(--navy-rgb), var(--opacity-20));
+$navy-30: rgba(var(--navy-rgb), var(--opacity-30));
+$navy-40: rgba(var(--navy-rgb), var(--opacity-40));
+$navy-50: rgba(var(--navy-rgb), var(--opacity-50));
+$navy-60: rgba(var(--navy-rgb), var(--opacity-60));
+$navy-70: rgba(var(--navy-rgb), var(--opacity-70));
+$navy-80: rgba(var(--navy-rgb), var(--opacity-80));
+$navy-90: rgba(var(--navy-rgb), var(--opacity-90));
+
+$walkable: rgb(224, 224, 216);
+$grid-lines: rgb(161, 161, 150);
+$blockade: rgb(108, 108, 101);
+$cell-hover: $teal-60;
+$exit: rgb(29, 155, 29);
+$guard: rgb(224, 59, 59);
+$guard-los: rgb(217, 130, 130);
+$exitPath: rgb(95, 189, 95);
